@@ -30,3 +30,10 @@ Le site GitHub Pages et ses photos seront publics. La directive `noindex` demand
 ## Sources et droits
 
 Les liens vers les sites officiels, les hébergements et les sources du budget figurent dans le carnet. Fonds de carte © swisstopo et © IGN / Géoplateforme ; tracés © contributeurs OpenStreetMap, calculés avec OSRM ; interface Leaflet 1.9.4. Sources : https://docs.geo.admin.ch/visualize-data/xyz.html et https://cartes.gouv.fr/aide/fr/partenaires/ign/representations-cartographiques-souveraines/plan-ign/plan-ign-web/ . Conditions swisstopo : https://www.geo.admin.ch/en/general-terms-of-use-fsdi ; Plan IGN sous licence ouverte. Les photographies Wikimedia sont créditées dans chaque fiche avec leur licence et leur page source. Les photographies personnelles restent la propriété de leurs auteurs et ne sont pas placées sous une licence de réutilisation.
+
+
+## Activités des enfants — ajout du 9 octobre 2026
+
+`activites-enfants.html` présente 12 alternatives suisses autour du circuit, avec 22 photos sous licences libres, de grandes images agrandissables et les portraits des trois enfants. Filtres par journée, entrées gratuites/petit budget et visites principalement à l’abri. Les fiches détaillent prix pour cinq, partage 50/50, créneaux, réservations et contraintes. Les missions sont des idées de jeux proposées par le carnet, pas des prestations promises par les sites.
+
+Ces propositions ne modifient ni les tracés, ni le planning, ni les 2 164 € du voyage. Toute sélection ultérieure demande de déduire les visites remplacées et de recalculer les détours. Les données reposent sur les informations officielles relevées le 9 octobre 2026 ; aucune réservation effectuée. Les photos d’archive sont identifiées, notamment pour Bex et Barryland. Chaque fiche contient les crédits et licences Commons. Les images sont servies localement, sans dépendance à un hébergeur d’images externe.

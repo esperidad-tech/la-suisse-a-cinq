@@ -14,6 +14,11 @@ function note(pair,important=false){return pair?`<div class="note ${important?'i
 function resetPanel(){panel.scrollTop=0;panel.querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{img.classList.add('image-error');const p=document.createElement('p');p.className='photo-unavailable';p.textContent='Photo indisponible · '+img.alt;img.parentNode.appendChild(p)},{once:true}));}
 function setNav(id){document.querySelectorAll('.day-button').forEach(b=>b.setAttribute('aria-pressed',Number(b.dataset.day)===id?'true':'false'));}
 function setViewButtons(mode){currentView=mode;$('#view-swiss').setAttribute('aria-pressed',String(mode==='swiss'));$('#view-all').setAttribute('aria-pressed',String(mode==='all'));}
+function childrenIdeas(id){
+ const ideas={2:{label:'Ours, horloges et explorations sous terre',photos:['bern-ours','mih-musee'],count:4},3:{label:'Petites vaches, traditions et bouquetins',photos:['trauffer-vache','ballenberg-ferme'],count:3},4:{label:'Fromage, chocolat et aventures au bord du lac',photos:['gruyere-cave','chillon-lac'],count:5}};
+ const idea=ideas[id];if(!idea)return '';
+ return `<a class="kids-day-teaser" href="activites-enfants.html?jour=${id}#decouvertes"><div class="kids-teaser-photos">${idea.photos.map(k=>`<img src="photos/enfants/${k}.jpg" alt="" loading="lazy">`).join('')}<span>${idea.count} idées</span></div><div><small>Des alternatives pour les enfants</small><strong>${idea.label}</strong><span>Photos, tarifs & détails →</span></div></a><p class="fine">Propositions à choisir ; non ajoutées au budget de cette journée.</p>`;
+}
 function selectDay(id,zoom=false){
  const d=DAYS.find(x=>x.id===id);if(!d)return;selected=id;setNav(id);document.documentElement.style.setProperty('--day',d.color);
  const total=sum(d.costs);
@@ -22,6 +27,7 @@ function selectDay(id,zoom=false){
  <div class="day-cost"><div><span class="eyebrow">Budget pour cinq</span><div class="amount">${euro(total)}</div><small>Répartition indicative du budget</small></div><div class="share"><strong>${euro(total/2)}</strong>par adulte</div></div><span class="status-badge estimate">Transport & repas estimés</span><span class="status-badge observed">Prix relevés le 09/10</span><p class="fine"><a href="guide.html#confirmer">Voir ce qui reste à calculer et à confirmer</a></p>
  ${note(d.warning,true)}<h3 class="section-title">Au fil de la journée</h3><ol class="timeline">${d.schedule.map(s=>`<li><time>${escapeHtml(s[0])}</time><div><strong>${escapeHtml(s[1])}</strong><p>${escapeHtml(s[2])}</p></div></li>`).join('')}</ol>
  <h3 class="section-title">Les vrais paysages de l’étape</h3><p class="photo-caption-intro">Photos des lieux, pour découvrir ce qui nous attend.</p><div class="gallery">${[[MONTAGE_BACKGROUNDS[id-1],d.heroLabel],...d.gallery].filter(([k],i,a)=>a.findIndex(v=>v[0]===k)===i).map(([k,label])=>`<figure>${photo(k,label)}<figcaption>${escapeHtml(label)}</figcaption></figure>`).join('')}</div>
+ ${childrenIdeas(id)}
  ${d.lodging?`<h3 class="section-title">Où dormir</h3><div class="lodging"><div class="lodging-head"><span>${escapeHtml(d.lodging.city)}</span><span>${escapeHtml(d.lodging.price)}</span></div><strong>${escapeHtml(d.lodging.name)}</strong><p>${escapeHtml(d.lodging.desc)}</p>${ext('Voir le logement aux bonnes dates',d.lodging.url)}<small>${escapeHtml(d.lodging.caveat)}</small></div>`:''}
  ${note(d.option)}<h3 class="section-title">Le budget en détail</h3><table class="cost-table" aria-label="Budget estimatif du jour ${id}"><tbody>${d.costs.map((v,i)=>v?`<tr><td>${COST_LABELS[i]}</td><td>${euro(v)}</td></tr>`:'').join('')}<tr class="total"><td>Total pour cinq</td><td>${euro(total)}</td></tr></tbody></table>
  <p class="fine">Partage 50/50 entre les deux adultes. La réserve commune de 100 € est ajoutée uniquement au total du voyage.</p><div class="note">${escapeHtml(d.notes)}</div><div class="sources">${d.sources.map(([label,k])=>ext(label,LINKS[k])).join('')}</div>

@@ -11,6 +11,7 @@ document.addEventListener('click',e=>{
  viewerOpener=button;viewer.querySelector('img').src=button.dataset.fullImage;
  viewer.querySelector('img').alt=button.dataset.imageTitle||'Photomontage du voyage à cinq';
  viewer.querySelector('h2').textContent=button.dataset.imageTitle||'Notre carte postale';
+ viewer.querySelector('.dialog-note').textContent=button.dataset.imageNote||'Photomontage · voyage imaginé avec vos photos de référence. Ce n’est pas une photo du séjour à venir.';
  viewer.showModal();
 });
 viewer.querySelector('.dialog-close').addEventListener('click',()=>viewer.close());
