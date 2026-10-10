@@ -46,3 +46,8 @@ Le mardi 27 intègre la luge et le lac d’Oeschinensee, le train voitures BLS K
 guide.html#priorites regroupe photos, coûts, réservations à confirmer, météo et alternative. La luge reste conditionnelle à la météo ; aucun créneau n’a été réservé ni sa disponibilité validée. Glacier 3000 est fermé du 19 octobre au 6 novembre 2026. Les liaisons en pointillés (train voitures, télécabines et marche) sont schématiques ; les routes sont calculées avec OSRM.
 
 Le PDF initial du 9 octobre reste une archive : le site actualisé le remplace pour le planning et le budget. Les activités des enfants restent des alternatives, avec les détours et remplacements signalés pour le nouveau parcours.
+
+
+## Le Voyage — galerie du 10 octobre 2026
+
+Premier onglet du site : voyage.html. Dix-sept photographies réelles des lieux de la boucle révisée, regroupées par journée, une image par lieu, agrandissables. Les repères facultatifs restent identifiés. Aucun budget ni planning n’est modifié par cette galerie. Crédits et licences des images dans le pied de page ; quatre photographies supplémentaires illustrent Brienz, Grindelwald, Interlaken et Clermont-Ferrand.

@@ -1,0 +1,47 @@
+.voyage-page{background:#fff9ed}
+.voyage-page .guide-header{background:#fff9edf7;border-bottom:1px solid #e9e1d4}
+.voyage-page .guide-brand{text-decoration:none}
+.voyage-site-nav{height:auto;min-height:49px;background:#fffdf7;padding:0 30px;gap:27px;overflow-x:auto;white-space:nowrap}
+.voyage-site-nav a{padding:15px 0}
+.voyage-site-nav a[aria-current=page]{font-weight:800;color:#146b60;border-bottom:3px solid #146b60}
+.voyage-main{max-width:1240px;margin:auto;padding:38px 38px 50px}
+.voyage-intro{display:flex;align-items:center;justify-content:space-between;gap:25px;margin-bottom:27px}
+.voyage-intro h1{font:700 clamp(56px,7vw,84px)/1 Caveat,cursive;letter-spacing:-1px;margin-top:8px}
+.voyage-intro h1 span{color:#d75a3e}
+.voyage-intro .eyebrow{font-size:11px;letter-spacing:2px;color:#817766}
+.voyage-handwritten{font:500 32px Caveat,cursive;color:#a36c3f;transform:rotate(-4deg);padding-right:20px}
+.voyage-days{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:44px;border-top:1px solid #e8dfcd;border-bottom:1px solid #e8dfcd;padding:15px 0}
+.voyage-days a{display:flex;align-items:center;gap:8px;color:#5b635a;text-decoration:none;font-size:12px;padding:5px 12px 5px 0;white-space:nowrap}
+.voyage-days span{display:grid;place-items:center;border-radius:50%;width:28px;height:28px;background:var(--jour);color:white;font-weight:700;font-size:11px}
+.voyage-days a:hover{color:var(--jour)}
+.voyage-day{display:grid;grid-template-columns:150px minmax(0,1fr);gap:34px;margin:0 0 65px;scroll-margin-top:130px}
+.voyage-day-heading{position:sticky;top:115px;align-self:start;padding:10px 0}
+.voyage-day-number{font:500 65px/1 Caveat,cursive;color:var(--jour)}
+.voyage-day-heading h2{font:700 21px Manrope,sans-serif;margin:7px 0;color:#283d3c}
+.voyage-day-heading p{font-size:12px;line-height:1.5;color:#78776e;max-width:125px}
+.day-thread{display:block;margin-top:22px;width:40px;border-top:2px solid var(--jour);transform:rotate(-5deg)}
+.voyage-grid{column-count:2;column-gap:23px}
+.voyage-grid.single{column-count:1}
+.voyage-photo{break-inside:avoid;margin:0 0 25px;background:#fffefa;border:1px solid #ede7dc;box-shadow:0 7px 20px #644e3010;padding:9px 9px 0;border-radius:3px;overflow:hidden;animation:photo-arrive .65s ease both}
+.voyage-photo button{display:block;width:100%;padding:0;position:relative;overflow:hidden;background:#ecebe1;border-radius:1px;cursor:zoom-in}
+.voyage-photo img{display:block;width:100%;height:auto;transition:transform .6s ease}
+.voyage-photo button:hover{filter:none}
+.voyage-photo button:hover img{transform:scale(1.025)}
+.voyage-enlarge{position:absolute;right:12px;bottom:12px;display:grid;place-items:center;width:31px;height:31px;background:#fffdf4e8;border-radius:50%;color:#1a504a;font-size:20px;box-shadow:0 2px 8px #0002}
+.voyage-photo figcaption{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:15px 9px 17px}
+.voyage-photo h3{font:600 clamp(23px,2.1vw,29px)/1.1 Caveat,cursive;color:#1b3d3c}
+.voyage-photo figcaption p{font-size:11px;line-height:1.5;color:#7b7b6f;margin-top:5px}
+.voyage-photo-day{font:700 11px Manrope,sans-serif;flex-shrink:0;color:var(--jour);border:1px solid color-mix(in srgb,var(--jour) 26%,white);border-radius:50%;width:30px;height:30px;display:grid;place-items:center;background:color-mix(in srgb,var(--jour) 5%,white)}
+.voyage-photo.small-original img{max-width:300px;margin:auto}
+.voyage-grid.single .voyage-photo{max-width:840px}
+.voyage-footer{border-top:1px solid #e6decf;padding-top:30px;text-align:center}
+.voyage-footer>a{font:600 29px Caveat,cursive;color:#275e53}
+.voyage-footer>p{font-size:11px;color:#847e70;margin-top:16px}
+.voyage-footer details{max-width:850px;margin:20px auto 0;text-align:left;font-size:11px;color:#757766;line-height:1.65}
+.voyage-footer summary{text-align:center;cursor:pointer}
+.voyage-footer li{margin:7px 0;overflow-wrap:anywhere}
+@keyframes photo-arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:850px){.voyage-main{padding:30px 24px}.voyage-day{grid-template-columns:110px minmax(0,1fr);gap:20px}.voyage-grid{column-gap:16px}.voyage-handwritten{font-size:26px;padding:0}.voyage-photo{padding:6px 6px 0}.voyage-photo figcaption{padding:12px 6px}.voyage-photo h3{font-size:24px}.voyage-site-nav{gap:22px;padding:0 20px;font-size:12px}}
+@media(max-width:600px){.voyage-page .guide-header{padding:12px 16px;gap:8px}.voyage-page .guide-brand{font-size:26px}.voyage-page .back-map{font-size:11px;padding:10px;white-space:nowrap}.voyage-page .swiss-cross{display:none}.voyage-main{padding:25px 17px}.voyage-intro{align-items:flex-start;margin-bottom:20px;gap:8px}.voyage-intro h1{font-size:58px}.voyage-handwritten{font-size:23px;width:105px;line-height:1.1;padding-top:25px}.voyage-days{gap:7px 12px;padding:10px 0;margin-bottom:27px}.voyage-days a{font-size:11px;gap:5px;padding:3px 4px 3px 0}.voyage-days span{height:24px;width:24px;font-size:10px}.voyage-day{display:block;margin-bottom:35px;scroll-margin-top:100px}.voyage-day-heading{position:static;display:grid;grid-template-columns:46px 1fr;gap:0 10px;align-items:center;padding:0 0 17px}.voyage-day-number{font-size:47px;grid-row:1/3}.voyage-day-heading h2{font-size:18px;margin:0 0 3px}.voyage-day-heading p{font-size:12px;max-width:none}.day-thread{display:none}.voyage-grid{column-count:1}.voyage-photo{margin-bottom:20px;padding:7px 7px 0}.voyage-photo h3{font-size:29px}.voyage-photo figcaption{padding:14px 6px 17px}.voyage-footer>a{font-size:26px}}
+@media(prefers-reduced-motion:reduce){.voyage-photo{animation:none}.voyage-photo img{transition:none}.voyage-photo button:hover img{transform:none}}
+
