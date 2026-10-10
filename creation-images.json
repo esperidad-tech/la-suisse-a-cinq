@@ -49,6 +49,12 @@
     {
       "name": "preparation",
       "prompt": "Use case: identity-preserve photographic compositing. Asset: landscape 3:2 photograph for personalized family trip preparation page. Input images 1–5 are the exact face identity references: Romain adult man; Siham adult woman; Lya girl 11; Naïm boy 8; Alicia girl 8. Show EXACTLY these five recognizable people together at a wooden dining table preparing their October Swiss holiday. Adults behind and children beside table, all five faces clear and relatively large, eye-level medium-wide composition. They are cheerfully packing small hiking backpacks, folded warm jackets, gloves, walking shoes, reusable water bottles and sandwiches in boxes. A road map on table, warm cozy home with autumn daylight and no other people. Preserve exact facial features, age, skin, hair and likeness; no generic replacement family, no duplicated person. Natural photographic texture, no beauty retouching. Inviting vacation mood, magazine-quality photo with genuine family personality, a few golden leaves seen through window. No text, no logo, no documents with personal details. No fantasy travel gear. One coherent realistic photographic image, not divided panels."
+    },
+    {
+      "name": "day4-oeschinensee",
+      "mode": "Outil intégré image_gen · édition de deux références locales",
+      "output": "photos/montages/jour-4-oeschinensee.png",
+      "prompt": "Use case: identity-preserve, compositing. Edit target image 1: the existing imagined family vacation montage with five specific people at Spiez. Supporting background image 2: actual Oeschinensee lake and cliffs. Create a new landscape 1536x1024 family holiday photomontage for day 4 at Oeschinensee. Preserve all FIVE people's facial features, ages, skin tones, hairstyles, smiles, clothing, and relative positions exactly as in image 1: father on left, boy, older girl in teal, younger girl, mother in purple on right. Replace only the Spiez castle/lake scenery with the recognizable turquoise Oeschinensee and limestone amphitheatre from image 2, with discreet autumn shoreline trees. The five people stand safely on the broad lakeside viewpoint, warm natural daylight, joyful personal travel scrapbook photograph. No castle, no amusement ride, no text, no added people, no frame. Keep faces highly faithful, balanced photographic lighting, no invented pregnancy belly or changed bodies."
     }
   ]
 }

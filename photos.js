@@ -204,6 +204,51 @@ const PHOTOS = {
     "license": "Photos fournies pour ce carnet",
     "page": "",
     "licenseUrl": ""
+  },
+  "saint-leonard": {
+    "url": "photos/lieux/saint-leonard.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint-L%C3%A9onard_underground_lake_1.JPG",
+    "author": "Daryona",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "Saint-Léonard underground lake 1.JPG",
+    "date": "2008-09-07"
+  },
+  "saint-leonard-bateau": {
+    "url": "photos/lieux/saint-leonard-bateau.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Leonard_lake.jpg",
+    "author": "Boris Legradic Borsic (talk)\n\n(31 August 2009 (original upload date))",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "St Leonard lake.jpg",
+    "date": "created 30th August 2009"
+  },
+  "oeschinensee": {
+    "url": "photos/lieux/oeschinensee.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Oeschinensee_0437.jpg",
+    "author": "Martin Thurnherr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "Oeschinensee 0437.jpg",
+    "date": "2019-10-14"
+  },
+  "oeschinen-luge": {
+    "url": "photos/lieux/oeschinen-luge.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Picswiss_BE-90-22_Sommer-Rodelbahn_Oeschinensee.jpg",
+    "author": "Roland Zumbühl (Picswiss), Arlesheim (Commons:Picswiss project)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "title": "Picswiss BE-90-22 Sommer-Rodelbahn Oeschinensee.jpg",
+    "date": "2004-09-05"
+  },
+  "loetschberg": {
+    "url": "photos/lieux/loetschberg.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Autoverlad_f%C3%BCr_den_L%C3%B6tschberg_in_Kandersteg.jpg",
+    "author": "JoachimKohler-HB",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "Autoverlad für den Lötschberg in Kandersteg.jpg",
+    "date": "2015-07-04 18:09:09"
   }
 };
-const MONTAGE_BACKGROUNDS=["pontarlier","first","aare","spiez","thonon","monein"];
+const MONTAGE_BACKGROUNDS=["pontarlier","first","aare","oeschinensee","thonon","monein"];

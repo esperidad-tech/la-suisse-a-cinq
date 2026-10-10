@@ -2,15 +2,15 @@
 
 Carnet de voyage interactif du 24 au 29 octobre 2026.
 
-Ouvrir `index.html` pour la carte : six couleurs, six journées, photos et budget dans un panneau à côté. `guide.html` reprend toutes les informations du carnet PDF et les huit points à calculer ou confirmer.
+Ouvrir `index.html` pour la carte : six couleurs, six journées, photos et budget dans un panneau à côté. `guide.html` reprend toutes les informations du carnet PDF et les dix points à calculer ou confirmer.
 
 ## Utilisation
 
 - Une connexion internet est nécessaire au fond de carte et au chargement de Leaflet et des polices. Les photos des destinations et les montages sont inclus dans le dossier.
 - Le fond de carte utilise swisstopo pour les visites en Suisse et IGN / Géoplateforme pour la vue du circuit en France. Le changement est automatique. Si swisstopo est indisponible, le site passe sur IGN. Aucun compte ni clé n’est nécessaire. Le serveur public de tuiles OpenStreetMap, qui affichait les erreurs « Access blocked », n’est plus utilisé.
 - Les photos originales de famille sont incluses dans le dossier `photos` ; les fichiers sources n’ont pas été modifiés. Les cinq portraits détourés sont dans `photos/portraits`, les six montages quotidiens et celui des préparatifs dans `photos/montages`. Les scènes sont signalées comme imaginées.
-- Budget de travail : 2 064 € de dépenses réparties sur six jours + 100 € de réserve = 2 164 €, soit 1 082 € par adulte.
-- Prix et horaires relevés le 9 octobre 2026. Aucun logement ni billet réservé.
+- Budget de travail : 2 324 € de dépenses réparties sur six jours + 100 € de réserve = 2 424 €, soit 1 212 € par adulte.
+- Prix et horaires relevés les 9 et 10 octobre 2026. Aucun logement ni billet réservé.
 - Les tracés routiers servent à visualiser le circuit. Recalculer le guidage et les restrictions au départ.
 
 ## Publication sur GitHub Pages
@@ -22,7 +22,7 @@ Le site GitHub Pages et ses photos seront publics. La directive `noindex` demand
 ## La version illustrée
 
 - `album.html` présente les six montages personnalisés, agrandissables au clic.
-- `guide.html#envies` présente 19 photos : 7 lieux sélectionnés en vert, 12 non sélectionnés en rouge. Les filtres affichent chaque groupe.
+- `guide.html#envies` présente 19 photos : 6 lieux sélectionnés en vert (dont Pissevache facultatif), 13 non sélectionnés en rouge. Les filtres affichent chaque groupe.
 - `guide.html#conseils` contient les préparatifs en images.
 - `creation-images.json` conserve les consignes finales utilisées avec l’outil intégré de création d’images.
 - Budgets, estimations et contenu du carnet conservés.
@@ -36,4 +36,13 @@ Les liens vers les sites officiels, les hébergements et les sources du budget f
 
 `activites-enfants.html` présente 12 alternatives suisses autour du circuit, avec 22 photos sous licences libres, de grandes images agrandissables et les portraits des trois enfants. Filtres par journée, entrées gratuites/petit budget et visites principalement à l’abri. Les fiches détaillent prix pour cinq, partage 50/50, créneaux, réservations et contraintes. Les missions sont des idées de jeux proposées par le carnet, pas des prestations promises par les sites.
 
-Ces propositions ne modifient ni les tracés, ni le planning, ni les 2 164 € du voyage. Toute sélection ultérieure demande de déduire les visites remplacées et de recalculer les détours. Les données reposent sur les informations officielles relevées le 9 octobre 2026 ; aucune réservation effectuée. Les photos d’archive sont identifiées, notamment pour Bex et Barryland. Chaque fiche contient les crédits et licences Commons. Les images sont servies localement, sans dépendance à un hébergeur d’images externe.
+Ces propositions ne modifient ni les tracés, ni le planning, ni les 2 424 € du voyage. Toute sélection ultérieure demande de déduire les visites remplacées et de recalculer les détours. Les données reposent sur les informations officielles relevées le 9 octobre 2026 ; aucune réservation effectuée. Les photos d’archive sont identifiées, notamment pour Bex et Barryland. Chaque fiche contient les crédits et licences Commons. Les images sont servies localement, sans dépendance à un hébergeur d’images externe.
+
+
+## Nouvelle boucle du 10 octobre 2026
+
+Le mardi 27 intègre la luge et le lac d’Oeschinensee, le train voitures BLS Kandersteg–Goppenstein et le lac souterrain de Saint-Léonard. Spiez passe au lundi ; Gibloux sort du circuit. Pissevache est facultatif. Le calendrier garde six jours et cinq nuits. Budget : 2 424 € / 1 212 € chacun, réserve comprise. Une variante sans Saint-Beatus est détaillée à 2 340 € / 1 170 € chacun.
+
+guide.html#priorites regroupe photos, coûts, réservations à confirmer, météo et alternative. La luge reste conditionnelle à la météo ; aucun créneau n’a été réservé ni sa disponibilité validée. Glacier 3000 est fermé du 19 octobre au 6 novembre 2026. Les liaisons en pointillés (train voitures, télécabines et marche) sont schématiques ; les routes sont calculées avec OSRM.
+
+Le PDF initial du 9 octobre reste une archive : le site actualisé le remplace pour le planning et le budget. Les activités des enfants restent des alternatives, avec les détours et remplacements signalés pour le nouveau parcours.
