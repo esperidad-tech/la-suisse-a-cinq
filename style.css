@@ -13,3 +13,4 @@
 #map .leaflet-tile-pane{filter:saturate(.5) contrast(.96) brightness(1.03)}.photo-hero{height:210px}.day-cost{margin-top:0}@media(max-width:800px){.photo-hero{height:220px}}
 @media(max-width:800px){.topbar{min-height:94px}.brand{min-width:0}.brand h1{white-space:nowrap;font-size:20px}.header-actions{flex:0 0 112px}.total-button{width:112px;padding:10px}.total-button>span:first-child{font-size:10px;white-space:nowrap}.total-button strong{white-space:nowrap;font-size:21px}.total-share{font-size:10px;white-space:nowrap}.brand p{font-size:11px}.site-nav{scrollbar-width:none}}
 .mobile-crew{display:none}@media(max-width:800px){.site-nav .mobile-crew{display:inline-block}}
+.home-projects{color:#5f6f7a!important;font-weight:500!important;opacity:.9}.home-projects:hover{opacity:1}
